@@ -1,0 +1,12 @@
+/*
+!.gitignore
+!.gitmodules
+
+!README.md
+!.pkgs
+!.bashrc
+!.zshrc
+!.xprofile
+!.Xresources
+!.config
+!.local

@@ -1,0 +1,7 @@
+xrandr --output Virtual-1 --primary --mode 1920x1080 --pos 0x0 &
+setxkbmap -layout latam,latam &
+nm-applet &
+udiskie -t &
+
+
+
