@@ -1311,3 +1311,16 @@ Traceback (most recent call last):
     raise ConnectionException(err)
 xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
 2022-01-19 23:57:34,080 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2022-01-21 02:21:20,632 ERROR libqtile manager.py:cmd_reload_config():L261 Configuration error: "/home/tomas/.config/qtile/themes/dark-grey.json" does not exist
+2022-01-21 02:21:20,632 WARNING libqtile utils.py:send_notification():L240 dbus-next is not installed. Unable to send notifications.
+2022-01-21 02:21:28,980 ERROR libqtile manager.py:cmd_reload_config():L261 Configuration error: "/home/tomas/.config/qtile/themes/dark-grey.json" does not exist
+2022-01-21 02:21:28,981 WARNING libqtile utils.py:send_notification():L240 dbus-next is not installed. Unable to send notifications.
+2022-01-21 02:21:58,722 ERROR libqtile manager.py:process_key_event():L389 KB command error kill: No object window in path 'window'
+2022-01-21 02:23:53,818 ERROR libqtile manager.py:cmd_reload_config():L261 Configuration error: "/home/tomas/.config/qtile/themes/dark-grey.json" does not exist
+2022-01-21 02:23:53,818 WARNING libqtile utils.py:send_notification():L240 dbus-next is not installed. Unable to send notifications.
+2022-01-21 02:24:20,829 WARNING libqtile utils.py:import_class():L202 Unmet dependencies for 'libqtile.widget.net.Net': No module named 'psutil'
+2022-01-21 02:26:19,985 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2022-01-21 02:26:20,128 WARNING libqtile utils.py:send_notification():L240 dbus-next is not installed. Unable to send notifications.
+2022-01-21 02:26:45,630 WARNING libqtile utils.py:import_class():L202 Unmet dependencies for 'libqtile.widget.net.Net': No module named 'psutil'
+2022-01-21 02:28:11,105 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2022-01-21 02:28:11,249 WARNING libqtile utils.py:send_notification():L240 dbus-next is not installed. Unable to send notifications.
