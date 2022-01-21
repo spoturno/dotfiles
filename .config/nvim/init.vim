@@ -9,6 +9,7 @@ Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 "colorscheme gruvbox
@@ -26,6 +27,7 @@ syntax enable               " Enables syntax highlight
 set hidden                  " Required to keep multiple buffers open
 set nowrap                  " Display long lines as just one line
 set fileencoding=utf-8      " The encoding written to file
+set encoding=UTF-8
 set pumheight=10            " Makes popup menu smaller
 set cmdheight=1             " More space for displaying messages
 set splitbelow              " Horizontal splits will automatically be below
