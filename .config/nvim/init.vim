@@ -2,7 +2,7 @@
 " Plugins
 " ==========================
 call plug#begin('~/.config/nvim/plugged')
-"Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 "Plug 'bluz71/vim-moonfly-colors'
 "Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
@@ -16,6 +16,7 @@ call plug#end()
 "colorscheme moonfly
 
 let g:coc_global_extensions = [ 'coc-tsserver' ]
+let g:coc_global_extensions = ['coc-solargraph']
 
 
 " ==========================
